@@ -1,5 +1,5 @@
 import React from 'react'
-import {Box, Image, Center, Heading,Text} from '@chakra-ui/react'
+import {Box, Image, Center, Heading,Text,Link} from '@chakra-ui/react'
 import brandLogo from '../assets/logo/logo 1.png'
 import {IoLogoInstagram,IoLogoTwitter} from 'react-icons/io'
 import {MdEmail} from 'react-icons/md'
@@ -14,11 +14,11 @@ const Banner = () => {
         <Image   boxSize={90} src={brandLogo} alt="Brandlogo" />
       </Box>
       <Box display='flex' ml={6}>
-      <IoLogoInstagram color='white' size={20}   />
+      <Link href='https://instagram.com/fxlogapp' isExternal> <IoLogoInstagram color='white' size={20}   /></Link>
       <Box ml={6} />
-    <IoLogoTwitter color='white' size={20}/>
+      <Link href='https://twitter.com/fxlogapp' isExternal>  <IoLogoTwitter color='white' size={20}/></Link>
     <Box ml={6} />
-    <MdEmail  color='white' size={20}/>
+    <Link href='mailto:support@fxlogapp.com' isExternal>  <MdEmail  color='white' size={20}/></Link>
       </Box>
     </Box>
    </header>
@@ -32,9 +32,10 @@ const Banner = () => {
     Mastering the Art of Journaling for Successful Forex Trading. Maximizing Your Trading Performance Through Journaling
     </Text>
     <Image  mt={{md:6,lg:6,sm:8,base:8 }}   src={banner}/>
+  
    <Center>
     
-    <Image height='50px' my={{md:5,lg:8,sm:5,base:5}}  src={googlePlayStore}/>
+   <Link href='https://play.google.com/store/apps/details?id=com.tukesolutions.fxlog' isExternal><Image height='50px' my={{md:5,lg:8,sm:5,base:5}}  src={googlePlayStore}/></Link>
     </Center> 
     
     
