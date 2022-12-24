@@ -1,13 +1,13 @@
 import './App.css';
-import {Banner,HowToApp} from './components/componentIndex'
+import {Banner,WhyYou,Action} from './components/componentIndex'
 
 function App() {
   return (
     <>
     
     <Banner />
-    <HowToApp />
-    
+    <WhyYou />
+    <Action />
     </>
   );
 }

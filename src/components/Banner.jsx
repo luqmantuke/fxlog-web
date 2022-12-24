@@ -34,7 +34,7 @@ const Banner = () => {
     <Image  mt={{md:6,lg:6,sm:8,base:8 }}   src={banner}/>
    <Center>
     
-    <Image height='30px' my={{md:5,lg:8,sm:5,base:5}}  src={googlePlayStore}/>
+    <Image height='50px' my={{md:5,lg:8,sm:5,base:5}}  src={googlePlayStore}/>
     </Center> 
     
     

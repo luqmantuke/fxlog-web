@@ -1,18 +1,18 @@
 import React from 'react'
-import {Box, Image, Center,Container,Text,Heading} from '@chakra-ui/react'
+import {Box, Image, Center,Heading} from '@chakra-ui/react'
 import addTrade from '../assets/screenshots/iosFrame/add trade.jpg'
 import listTrade from '../assets/screenshots/iosFrame/list_trades.jpg'
 import tradeDetails from '../assets/screenshots/iosFrame/trade_details.jpg'
 import quickAnalytics from '../assets/screenshots/iosFrame/quick_analytics.jpg'
 import generalAnalytics from '../assets/screenshots/iosFrame/trade_analytics.jpg'
 import report from '../assets/screenshots/iosFrame/trade_report.jpg'
-import test from '../assets/screenshots/iosFrame/test.jpg'
-const HowToApp = () => {
+
+const WhyYou = () => {
   return (
     <Box > 
      <Center>
         
-          <Heading as='h3' mb={{md:5,lg:8,sm:5,base:5}}  color='white'>
+          <Heading as='h3' mb={{md:5,lg:8,sm:5,base:5}}  color='#FAEAB1'>
        Why you should use FxLog 
        </Heading>
         </Center>
@@ -49,9 +49,11 @@ const HowToApp = () => {
     </Box>
     </Box>
     </Center>
+   
+    
   </Box>
  
   )
 }
 
-export default HowToApp
+export default WhyYou
