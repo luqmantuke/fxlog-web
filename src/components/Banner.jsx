@@ -1,5 +1,5 @@
 import React from 'react'
-import {Box, Image, Center, Heading,Text,Link} from '@chakra-ui/react'
+import {Box, Image, Center, Heading,Text,Link,Flex} from '@chakra-ui/react'
 import brandLogo from '../assets/logo/logo 1.png'
 import {IoLogoInstagram,IoLogoTwitter} from 'react-icons/io'
 import {MdEmail} from 'react-icons/md'
@@ -34,11 +34,11 @@ const Banner = () => {
     </Text>
     <Image  mt={{md:6,lg:6,sm:8,base:8 }}   src={banner}/>
   
-   <Center>
+   <Flex>
     
    <Link href='https://play.google.com/store/apps/details?id=com.tukesolutions.fxlog' isExternal><Image height='50px' my={{md:5,lg:8,sm:5,base:5}}  src={googlePlayStore}/></Link>
-   <Link href='https://apps.apple.com/us/app/fxlog/id6447367184' isExternal><Image height='50px' my={{md:5,lg:8,sm:5,base:5}}  src={appleStore}/></Link>
-    </Center> 
+   <Link href='https://apps.apple.com/us/app/fxlog/id6447367184' isExternal><Image height='70px' my={{md:5,lg:8,sm:5,base:5}}  src={appleStore}/></Link>
+    </Flex> 
     
     
 
