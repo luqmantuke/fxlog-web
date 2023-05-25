@@ -36,7 +36,7 @@ const Banner = () => {
   
    <Flex justifyContent='center'>
     
-   <Link href='https://play.google.com/store/apps/details?id=com.tukesolutions.fxlog' isExternal><Image height='70px' my={{md:5,lg:8,sm:5,base:5}}  src={googlePlayStore}/></Link>
+   <Link href='https://play.google.com/store/apps/details?id=com.tukesolutions.fxlog' isExternal><Image height='70px' my={{md:5,lg:8,sm:5,base:5}} mr={20} src={googlePlayStore}/></Link>
    <Link href='https://apps.apple.com/us/app/fxlog/id6447367184' isExternal><Image height='70px' my={{md:5,lg:8,sm:5,base:5}}  src={appleStore}/></Link>
     </Flex> 
     
